@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1660306789323" clover="3.2.0">
+  <project timestamp="1660306789323" name="All files">
+    <metrics statements="431" coveredstatements="221" conditionals="46" coveredconditionals="9" methods="133" coveredmethods="63" elements="610" coveredelements="293" complexity="0" loc="431" ncloc="431" packages="36" files="73" classes="73"/>
+    <package name="src">
+      <metrics statements="14" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="App.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/App.tsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/index.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+      <file name="reportWebVitals.ts" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/reportWebVitals.ts">
+        <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.Buttons">
+      <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/atoms/Buttons/index.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/atoms/Buttons/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="13" type="stmt"/>
+        <line num="7" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.Logo">
+      <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/atoms/Logo/index.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/atoms/Logo/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.atoms.icons">
+      <metrics statements="10" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/atoms/icons/index.stories.tsx">
+        <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/atoms/icons/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="18" type="stmt"/>
+        <line num="10" count="68" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.Dropdown">
+      <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/Dropdown/index.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/Dropdown/index.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="34" count="24" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.Pagination">
+      <metrics statements="10" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/Pagination/index.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/Pagination/index.tsx">
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.alsoRead">
+      <metrics statements="10" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/alsoRead/index.stories.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/alsoRead/index.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="64" count="7" type="stmt"/>
+        <line num="65" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.banner">
+      <metrics statements="9" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/banner/index.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/banner/index.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.bookDescription">
+      <metrics statements="10" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/bookDescription/index.stories.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/bookDescription/index.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.bookReading">
+      <metrics statements="9" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/bookReading/index.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/bookReading/index.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.card">
+      <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/card/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/card/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.followReviews">
+      <metrics statements="7" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/followReviews/index.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/followReviews/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.landingpage">
+      <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/landingpage/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/landingpage/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.list">
+      <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/list/index.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/list/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="35" count="18" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.notFound">
+      <metrics statements="7" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/notFound/index.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/notFound/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.readingCount">
+      <metrics statements="8" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/readingCount/index.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/readingCount/index.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="9" type="stmt"/>
+        <line num="31" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.reviews">
+      <metrics statements="7" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/reviews/index.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/reviews/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.searchResult">
+      <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/searchResult/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/searchResult/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.searchResultCard">
+      <metrics statements="10" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/searchResultCard/index.stories.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/searchResultCard/index.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="75" count="4" type="stmt"/>
+        <line num="76" count="4" type="stmt"/>
+        <line num="77" count="4" type="stmt"/>
+        <line num="120" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.searchbar">
+      <metrics statements="24" coveredstatements="15" conditionals="6" coveredconditionals="1" methods="5" coveredmethods="4"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/searchbar/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/searchbar/index.tsx">
+        <metrics statements="21" coveredstatements="15" conditionals="6" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="24" count="7" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="26" count="8" type="stmt"/>
+        <line num="39" count="8" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="52" count="8" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="64" count="8" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.molecules.tabsBarData">
+      <metrics statements="8" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/tabsBarData/index.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/molecules/tabsBarData/index.tsx">
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="27" count="16" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.organisms.allTopics">
+      <metrics statements="15" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="4"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/organisms/allTopics/index.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/organisms/allTopics/index.tsx">
+        <metrics statements="13" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="32" count="9" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="52" count="8" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="70" count="2" type="stmt"/>
+        <line num="71" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.organisms.bookCards">
+      <metrics statements="31" coveredstatements="19" conditionals="6" coveredconditionals="2" methods="12" coveredmethods="6"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/organisms/bookCards/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/organisms/bookCards/index.tsx">
+        <metrics statements="28" coveredstatements="19" conditionals="6" coveredconditionals="2" methods="11" coveredmethods="6"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
+        <line num="69" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="78" count="3" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="85" count="3" type="stmt"/>
+        <line num="86" count="3" type="stmt"/>
+        <line num="87" count="3" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="96" count="3" type="stmt"/>
+        <line num="99" count="3" type="stmt"/>
+        <line num="100" count="3" type="stmt"/>
+        <line num="103" count="3" type="stmt"/>
+        <line num="138" count="3" type="stmt"/>
+        <line num="152" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.organisms.bookDetails">
+      <metrics statements="27" coveredstatements="18" conditionals="8" coveredconditionals="2" methods="8" coveredmethods="5"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/organisms/bookDetails/index.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/organisms/bookDetails/index.tsx">
+        <metrics statements="23" coveredstatements="18" conditionals="8" coveredconditionals="2" methods="7" coveredmethods="5"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="23" count="8" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
+        <line num="62" count="1" type="cond" truecount="2" falsecount="2"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="81" count="3" type="stmt"/>
+        <line num="82" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="87" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.organisms.bookList">
+      <metrics statements="22" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="10" coveredmethods="0"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/organisms/bookList/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/organisms/bookList/index.tsx">
+        <metrics statements="19" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.organisms.header">
+      <metrics statements="40" coveredstatements="19" conditionals="10" coveredconditionals="2" methods="11" coveredmethods="3"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/organisms/header/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/organisms/header/index.tsx">
+        <metrics statements="37" coveredstatements="19" conditionals="10" coveredconditionals="2" methods="10" coveredmethods="3"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="49" count="6" type="stmt"/>
+        <line num="50" count="6" type="stmt"/>
+        <line num="63" count="6" type="stmt"/>
+        <line num="64" count="6" type="stmt"/>
+        <line num="65" count="6" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="70" count="6" type="stmt"/>
+        <line num="73" count="6" type="stmt"/>
+        <line num="75" count="6" type="stmt"/>
+        <line num="76" count="6" type="stmt"/>
+        <line num="77" count="6" type="stmt"/>
+        <line num="79" count="6" type="stmt"/>
+        <line num="80" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="84" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="92" count="6" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="97" count="6" type="stmt"/>
+        <line num="98" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="128" count="6" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="144" count="0" type="stmt"/>
+        <line num="162" count="0" type="stmt"/>
+        <line num="180" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.organisms.homePageDetail">
+      <metrics statements="17" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="6"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/organisms/homePageDetail/index.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/organisms/homePageDetail/index.tsx">
+        <metrics statements="15" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="6"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="80" count="2" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
+        <line num="132" count="2" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="182" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.organisms.secBookCards">
+      <metrics statements="18" coveredstatements="11" conditionals="4" coveredconditionals="0" methods="8" coveredmethods="4"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/organisms/secBookCards/index.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/organisms/secBookCards/index.tsx">
+        <metrics statements="16" coveredstatements="11" conditionals="4" coveredconditionals="0" methods="7" coveredmethods="4"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="22" count="9" type="stmt"/>
+        <line num="47" count="9" type="stmt"/>
+        <line num="49" count="9" type="stmt"/>
+        <line num="50" count="9" type="stmt"/>
+        <line num="51" count="9" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="55" count="9" type="stmt"/>
+        <line num="58" count="9" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="65" count="9" type="stmt"/>
+        <line num="97" count="9" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="105" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="106" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.pages.bookPage">
+      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/pages/bookPage/index.stories.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/pages/bookPage/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="307" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.pages.home">
+      <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/pages/home/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/pages/home/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.pages.library">
+      <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/pages/library/index.stories.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/pages/library/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.pages.searchResults">
+      <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/pages/searchResults/index.stories.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/pages/searchResults/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Components.templates.landingTemplate">
+      <metrics statements="8" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="index.stories.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/templates/landingTemplate/index.stories.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/Components/templates/landingTemplate/index.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.core-utils">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="colors.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/core-utils/colors.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="9" type="stmt"/>
+      </file>
+      <file name="theme.ts" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/core-utils/theme.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="22" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.core-utils.messages">
+      <metrics statements="33" coveredstatements="33" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.tsx" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/core-utils/messages/index.tsx">
+        <metrics statements="33" coveredstatements="33" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="15" type="stmt"/>
+        <line num="2" count="15" type="stmt"/>
+        <line num="3" count="15" type="stmt"/>
+        <line num="4" count="15" type="stmt"/>
+        <line num="5" count="15" type="stmt"/>
+        <line num="6" count="15" type="stmt"/>
+        <line num="7" count="15" type="stmt"/>
+        <line num="9" count="15" type="stmt"/>
+        <line num="11" count="15" type="stmt"/>
+        <line num="12" count="15" type="stmt"/>
+        <line num="13" count="15" type="stmt"/>
+        <line num="14" count="15" type="stmt"/>
+        <line num="15" count="15" type="stmt"/>
+        <line num="17" count="15" type="stmt"/>
+        <line num="18" count="15" type="stmt"/>
+        <line num="19" count="15" type="stmt"/>
+        <line num="20" count="15" type="stmt"/>
+        <line num="22" count="15" type="stmt"/>
+        <line num="23" count="15" type="stmt"/>
+        <line num="25" count="15" type="stmt"/>
+        <line num="26" count="15" type="stmt"/>
+        <line num="27" count="15" type="stmt"/>
+        <line num="28" count="15" type="stmt"/>
+        <line num="29" count="15" type="stmt"/>
+        <line num="30" count="15" type="stmt"/>
+        <line num="31" count="15" type="stmt"/>
+        <line num="32" count="15" type="stmt"/>
+        <line num="33" count="15" type="stmt"/>
+        <line num="34" count="15" type="stmt"/>
+        <line num="35" count="15" type="stmt"/>
+        <line num="36" count="15" type="stmt"/>
+        <line num="37" count="15" type="stmt"/>
+        <line num="38" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.mocks">
+      <metrics statements="7" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="browser.js" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/mocks/browser.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="handlers.js" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/mocks/handlers.js">
+        <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="4" count="31" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="server.js" path="/home/asishk/Desktop/BC-53/Bootcamp_53_BookDiscovery/src/mocks/server.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="31" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
