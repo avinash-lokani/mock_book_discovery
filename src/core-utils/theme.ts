@@ -1,7 +1,6 @@
 import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
-
   spacing: 4,
   palette: {
     primary: {
@@ -14,9 +13,10 @@ const theme = createTheme({
       light: "#686868",
       contrastText: "#ffff",
     },
-    grey:{
+    grey: {
       50: "#E3E3E3",
-      100:"#B0B0B0",
+      100: "#B0B0B0",
+      200: "#FAFAFA",
     },
     info: {
       50: "#E3E3E3",
@@ -32,7 +32,6 @@ const theme = createTheme({
   typography: {
     button: {
       textTransform: "none",
-
     },
 
     fontSize: 16,
@@ -64,10 +63,10 @@ const theme = createTheme({
       fontSize: 24,
       fontWeight: 500,
     },
-    h2:{
+    h2: {
       fontWeight: 700,
       fontSize: "24px",
-      lineHeight: "36px"
+      lineHeight: "36px",
     },
     h3: {
       lineHeight: "36px",
@@ -86,7 +85,7 @@ const theme = createTheme({
             backgroundColor: "transparent",
             color: "#FF725E",
           },
-          minWidth: 160
+          minWidth: 160,
         },
         labelIcon: {
           color: "#686868",

@@ -78,7 +78,7 @@ const SearchResultCard = (props: SearchResultCardProps) => {
   return (
     <Card className={classes.container}>
       <Box className={classes.flexDiv}>
-        <img src={props.bookImg} />
+        <img src={props.bookImg} style={{width:'151px',height:'165px'}}/>
       </Box>
       <Box className={classes.bookContentDiv}>
         <Box className={classes.authorDetail}>

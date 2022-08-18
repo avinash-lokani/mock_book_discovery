@@ -16,7 +16,7 @@ interface Props {
 const useStyles = makeStyles(() => ({
     root: {
       "& .MuiPaginationItem-outlined": {
-        borderColor: "#FF725E"
+        borderColor: "#FF725E",
       }, 
       "& .MuiPaginationItem-outlined:active": {
         backgroundColor: "#FF725E",

@@ -17,7 +17,7 @@ const NotfoundBox = styled("div")({
 
 const NotfoundComponent = (props: NotfoundProps) => {
   return (
-    <NotfoundBox>
+    <NotfoundBox style={{width:'36.4vw', justifyContent:'center', alignItems:'center'}}>
       <Typography variant="body1" color="primary.main">
         {props.placeholder}
       </Typography>

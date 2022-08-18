@@ -25,61 +25,71 @@ const BookPageDetails = (props: BookPageDetailsProps) => {
   return (
     <Grid
       data-testid="body"
-      sx={{ marginTop:'100px',width:'89vw',marginLeft:'70px',marginBottom: theme.spacing(25), textAlign:'left' }}
+      sx={{
+        marginTop: "100px",
+        width: "89vw",
+        marginLeft: "70px",
+        marginBottom: theme.spacing(25),
+        textAlign: "left",
+      }}
     >
       <Grid container>
         <Grid item xs={8} md={8}>
           <BookDetails id={props.id} />
         </Grid>
 
-        <Grid item xs={4} md={4}  >
-        <Grid container  >
-          <Typography
-            variant="subtitle1"
-            color="primary.dark"
-            marginLeft="202px"
-          >
-            {batchmates_also_read}
-          </Typography>
+        <Grid item xs={4} md={4}>
+          <Grid container>
+            <Typography
+              variant="subtitle1"
+              color="primary.dark"
+              marginLeft="202px"
+            >
+              {batchmates_also_read}
+            </Typography>
 
-          <Box
-            sx={{
-              marginTop: theme.spacing(4),
-              display: "flex",
-              flexWrap: "wrap",
-              justifyContent: "center",
-            }}
-          >
-            {BookData.map((book, key) => {
-              return (
-               <Grid  key={key} item xs={12} sx={{marginLeft:'40px',paddingLeft:'150px'}}>
-                 <AlsoRead
-                  key={key}
-                  bookName={book.bookName}
-                  rating={"4.5"}
-                  bookImg={book.Img}
-                  category={"Chemistry"}
-                  peopleRated={830}
-                />
-               </Grid>
-              );
-            })}
-          </Box>
+            <Box
+              sx={{
+                marginTop: theme.spacing(4),
+                display: "flex",
+                flexWrap: "wrap",
+                justifyContent: "center",
+              }}
+            >
+              {BookData.map((book, key) => {
+                return (
+                  <Grid
+                    key={key}
+                    item
+                    xs={12}
+                    sx={{ marginLeft: "40px", paddingLeft: "150px" }}
+                  >
+                    <AlsoRead
+                      key={key}
+                      bookName={book.bookName}
+                      rating={"4.5"}
+                      bookImg={book.Img}
+                      category={"Chemistry"}
+                      peopleRated={830}
+                    />
+                  </Grid>
+                );
+              })}
+            </Box>
 
-          <Typography
-            variant="body2"
-            sx={{
-              color: "secondary.main",
-              marginTop: theme.spacing(4.25),
-              display: "flex",
-              justifyContent: "center",
-              marginLeft:'295px'
-             
-            }}
-          >
-            {seemore} <img style={{ height: "16px" }} src={chevron} />
-          </Typography>
-        </Grid>
+            <Typography
+              variant="body2"
+              sx={{
+                color: "secondary.main",
+                marginTop: theme.spacing(4.25),
+                display: "flex",
+                justifyContent: "center",
+                marginLeft: "295px",
+              }}
+            >
+              {seemore} <img style={{ height: "16px" }} src={chevron} />
+            </Typography>
+          </Grid>
         </Grid>
       </Grid>
 
@@ -111,26 +121,26 @@ const BookPageDetails = (props: BookPageDetailsProps) => {
             {seemore} <img style={{ height: "16px" }} src={chevron} />{" "}
           </Typography>
         </Grid>
-        <Grid
-          item
+        <Grid 
+          container
           xs={12}
           md={12}
           sx={{
-            display: "flex",
-            justifyContent: "space-between",
             flexWrap: "wrap",
           }}
         >
           {BookData.map((book, key) => {
             return (
-              <AlsoRead
-                key={key}
-                bookName={book.bookName}
-                rating={"4.5"}
-                bookImg={book.Img}
-                category={"Chemistry"}
-                peopleRated={830}
-              />
+              <Grid item xs={4}>
+                <AlsoRead
+                  key={key}
+                  bookName={book.bookName}
+                  rating={"4.5"}
+                  bookImg={book.Img}
+                  category={"Chemistry"}
+                  peopleRated={830}
+                />
+              </Grid>
             );
           })}
         </Grid>
@@ -161,25 +171,26 @@ const BookPageDetails = (props: BookPageDetailsProps) => {
           </Typography>
         </Box>
         <Grid
+          container
           xs={12}
           md={12}
           sx={{
-            display: "flex",
-            justifyContent: "space-between",
             marginTop: theme.spacing(4),
             flexWrap: "wrap",
           }}
         >
           {FollowersReview.map((review, key) => {
             return (
-              <FollowReviews
-                key={key}
-                avatar={review.avatar}
-                reviewerName={review.reviewerName}
-                designation={review.designation}
-                rating={review.rating}
-                comment={review.comment}
-              />
+              <Grid item xs={4}>
+                <FollowReviews
+                  key={key}
+                  avatar={review.avatar}
+                  reviewerName={review.reviewerName}
+                  designation={review.designation}
+                  rating={review.rating}
+                  comment={review.comment}
+                />
+              </Grid>
             );
           })}
         </Grid>
@@ -237,7 +248,7 @@ const BookPageDetails = (props: BookPageDetailsProps) => {
         </Grid>
       </Grid>
       <Box sx={{ marginTop: theme.spacing(16), width: "80%" }}>
-        <CardGroup filterType={"recommendations"} heading={"Recommendations"}  />
+        <CardGroup filterType={"recommendations"} heading={"Recommendations"} />
       </Box>
     </Grid>
   );

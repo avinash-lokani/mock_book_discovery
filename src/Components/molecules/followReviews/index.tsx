@@ -16,7 +16,7 @@ export interface ReviewsProps{
 const FollowReviews = ({avatar,comment,reviewerName,designation,rating}:ReviewsProps) => { 
     return (
         
-        <Box sx = {{border:1, borderColor:theme.palette.grey[50], borderRadius:2, width : theme.spacing(61.7525),padding:" 12px 6px 12px 6px"}}>
+        <Box sx = {{border:1, borderColor:theme.palette.grey[50], borderRadius:2,marginRight:'24px',padding:" 12px 6px 12px 6px"}}>
         <Box sx = {{
             display:"flex"
         }}>
