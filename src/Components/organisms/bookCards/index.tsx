@@ -139,7 +139,7 @@ const BookCards = (props: BookCardsProps) => {
 
   return (
     <Box>
-      <Box sx={{ display: "flex", justifyContent: "space-around" }}>
+      <Box sx={{ display: "flex", justifyContent: "space-around" , marginTop:'100px'}}>
         <Box className={classes.heading}>
           <Box>
             <Typography

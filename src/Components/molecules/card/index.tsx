@@ -42,7 +42,7 @@ const Infocard = (props: CardProps) => {
         <div style = {{display : "flex", flexDirection:"row-reverse"}}>
             <MoreHorizIcon fontSize={"small"} style = {{marginRight:theme.spacing(2.5), color:`${theme.palette.secondary.light}`}}/>
           </div>
-        <ImageBox onClick={props.onCardClick}>
+        <ImageBox onClick={props.onCardClick} style={{backgroundColor:`${theme.palette.grey[200]}`}}>
           <img  src={props.imgSrc}  style={{width:'151px',height:'165px'}}></img>
         </ImageBox>
       </Box>

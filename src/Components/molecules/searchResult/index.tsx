@@ -36,9 +36,10 @@ export interface SearchResultProps {
 const SearchResult = (props: SearchResultProps) => {
 
   return (
-    <Box sx={{zIndex : "999", background: "white", boxShadow: "1px 1px 1px 1px rgba(0,0,0,0.2)", borderRadius: "5px"}}>
+    <Box sx={{zIndex : "999", background: "white", boxShadow: "1px 1px 1px 1px rgba(0,0,0,0.2)", borderRadius: "5px", height:'500px', width:'37.4vw'}}>
       <>
-        {props.results.map((books, key) => {
+       <div style={{height:'450px',overflowX:'hidden',overflowY:'scroll'}}>
+       {props.results.map((books, key) => {
           return (
             <BookDescription
               key={key}
@@ -49,14 +50,20 @@ const SearchResult = (props: SearchResultProps) => {
             />
           );
         })}
-        <ButtonComponent
+       </div>
+       <div style={{display:'flex',alignItems:'center', justifyContent:'center'}}>
+       <div>
+        <Divider sx={{marginLeft:'24px',marginRight:'24px',color:`${theme.palette.grey[50]}`, widht:'35vw'}}/>
+       <ButtonComponent
           role={"button"}
           color="secondary"
-          style={{ width: theme.spacing(128.25) }}
+          style={{textTransform:'none',marginTop:'6px', width: '37.4vw', color:`${theme.palette.secondary.main}`}}
           onClick={props.handleSeeMore}
         >
           See all results
         </ButtonComponent>
+       </div>
+       </div>
       </>
     </Box>
   );
