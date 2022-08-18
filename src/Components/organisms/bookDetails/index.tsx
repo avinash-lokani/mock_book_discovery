@@ -4,7 +4,9 @@ import ButtonComponent from "../../atoms/Buttons";
 import Icons from "../../atoms/icons";
 import Share from "../../../../public/assets/icons/share.svg";
 import Bookmark from "../../../../public/assets/icons/bookmark.svg";
+import BookmarkYellow from "../../../../public/assets/icons/bookmarky.svg";
 import {
+  BooksURL,
   By,
   category,
   Language,
@@ -26,6 +28,8 @@ export interface BookDetailsProps {
 
 export const useGlobalReadState = createGlobalState<number[]>([]);
 export const useGlobalBookmarkState = createGlobalState<number[]>([]);
+export const useGlobalBooksCompletedState = createGlobalState<number[]>([]);
+
 
 const BookDetails = (props: BookDetailsProps) => {
   const [bookData, setBookData] = useState({
@@ -52,32 +56,60 @@ const BookDetails = (props: BookDetailsProps) => {
     },
   });
 
+  const [isbookmarked, setIsBookmarked] = useState(false);
   useEffect(() => {
     const myBookData = async (n: number) => {
-      // const result = await axios.get(`${BooksURL}/BookDetail/${n}`);
-      const result = await axios.get(`http://localhost:7075/BookDetail/${n}`);
+      const result = await axios.get(`${BooksURL}/BookDetail/${n}`);
       const book = result.data;
+      setIsBookmarked(book.isBookmarked)
       setBookData(book);
+      const bookStatus = bookData.isStartRead
+        ? "Stop Reading"
+        : "Start Reading";
+      setStartRead(bookStatus);
     };
     myBookData(props.id);
-  }, [props.id]);
+  }, [bookData.isStartRead, props.id]);
+  
 
   const [currentRead, setCurrentRead] = useGlobalReadState();
   const [bookmarks, setBookmarks] = useGlobalBookmarkState();
+ 
   const readStatus= bookData.isStartRead? "Stop Reading":"Start Reading"
   const [startRead, setStartRead] = useState(readStatus);
+  const [booksCompleted, setBooksCompleted] = useGlobalBooksCompletedState();
 
   const handleStartRead = () => {
     if (currentRead.indexOf(bookData.id) <= -1 || currentRead.length == 0) {
       addToRead(bookData.id);
       startReadBook(bookData.id);
+      deleteFromComplete(bookData.id);
       setStartRead("Stop Reading");
     } else {
+      addToComplete(bookData.id);
       deleteToRead(bookData.id);
       stopReadBook(bookData.id);
       setStartRead("Start Reading");
     }
   };
+
+  const deleteFromComplete = useCallback(
+    (id: number) => {
+      const index = booksCompleted.indexOf(id);
+      if (index !== -1) {
+        booksCompleted.splice(index, 1);
+      }
+      setBooksCompleted(booksCompleted);
+    },
+    [booksCompleted, setBooksCompleted]
+  );
+
+  const addToComplete = useCallback(
+    (id: number) => {
+      setBooksCompleted([...booksCompleted, id]);
+    },
+    [booksCompleted, setBooksCompleted]
+  );
 
   const deleteToRead = useCallback(
     (id: number) => {
@@ -106,6 +138,7 @@ const BookDetails = (props: BookDetailsProps) => {
   );
 
   const handleBookmark = () => {
+    setIsBookmarked(!isbookmarked)
     if (bookmarks.indexOf(bookData.id) <= -1 || bookmarks.length == 0) {
       addBookmarks(bookData.id);
       bookMarkBook(bookData.id);
@@ -194,7 +227,7 @@ const BookDetails = (props: BookDetailsProps) => {
               {startRead}
             </ButtonComponent>
             <Icons
-              icon={Bookmark}
+              icon={isbookmarked? BookmarkYellow : Bookmark}
               onClick={handleBookmark}
               style={{ marginLeft: theme.spacing(5.5) }}
             />

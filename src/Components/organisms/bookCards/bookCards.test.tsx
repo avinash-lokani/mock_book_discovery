@@ -5,7 +5,7 @@ import BookCards from '.';
 test("should render BookCards",() => {
 
     render(
-        <BookCards searchInput={'J D Lee'} />
+        <BookCards searchInput={'J D Lee'} allBookData={[]} />
     );
     expect(screen.getByTestId("searchresult")).toBeInTheDocument();
     expect(screen.getByText("Search Results for J D Lee")).toBeInTheDocument();

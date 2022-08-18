@@ -4,7 +4,7 @@ import LandingTemplate from "../../templates/landingTemplate"
 
 const SearchResultsPage:React.FC = () => {
     return (
-        <LandingTemplate template={<BookCards title={'Search Results'}/>}/>
+        <LandingTemplate template={<BookCards title={'Search Results'} allBookData={[]}/>}/>
     )
 }
 

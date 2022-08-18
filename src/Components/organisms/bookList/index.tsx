@@ -54,8 +54,7 @@ const BookList = () => {
 
   useEffect(() => {
     const data = async () => {
-      // const searchedRes = await axios.get(`${BooksURL}/BookDetail`);
-      const searchedRes = await axios.get("http://localhost:7075/searchedData");
+       const searchedRes = await axios.get(`${BooksURL}/BookDetail`);
       setBookData(searchedRes.data);
     };
     data();

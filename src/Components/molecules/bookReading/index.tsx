@@ -40,7 +40,7 @@ const ReadingCardComponent = (props: ReadingCardProps) => {
     <Card sx={{width: theme.spacing(68.25), padding: theme.spacing(2), marginRight: theme.spacing(2.5)}} onClick={props.onClick}>
       <CardBox sx={props.style}>
         <ImageBox>
-          <img src={props.imgSrc}></img>
+          <img src={props.imgSrc} style={{width:'91px',height:'118px'}}></img>
         </ImageBox>
         <TextBox>
           <Typography variant="body1">{props.bookName}</Typography>
