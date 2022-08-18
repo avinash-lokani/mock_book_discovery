@@ -1,26 +1,65 @@
 import { Box, Divider, Paper } from "@mui/material";
 import React from "react";
 import theme from "../../../core-utils/theme";
-import ButtonComponent from "../../atoms/Buttons/index"
+import ButtonComponent from "../../atoms/Buttons/index";
+import BookDescription from "../bookDescription/index";
 
-export interface SearchResultProps{
-    results: React.ReactElement[];
-    
+type BookProps = {
+  id: number;
+  title: string;
+  author: string;
+  authorImg: string;
+  bookImage: string;
+  category: string;
+  rating: number;
+  bookDescription: string;
+  bookDesc: string;
+  authorDesc: string;
+  reviewsCount: number;
+  releaseDate: string;
+  language: string;
+  followersCount: number;
+  isStartRead: boolean;
+  isBookmarked: boolean;
+  type: {
+    recommendations: boolean;
+    PeopleYouareFollowingAlsoRead: boolean;
+    TopRatings: boolean;
+  };
+};
+
+export interface SearchResultProps {
+  results: Array<BookProps>;
+  handleSeeMore: () => void;
 }
 
-const SearchResult = (props:SearchResultProps) => {
-    const resultsList = props.results.map(bookdes => <Box key = {bookdes.key}>{bookdes} <Divider  sx={{margin : "0px 24px 0px 24px",padding : 0,color:"grey.50" }} /> </Box>)
+const SearchResult = (props: SearchResultProps) => {
 
-    return (
-        <Paper sx = {{
-            width:theme.spacing(128.25)
-        }}>
-            {resultsList}
-
-            <ButtonComponent role={"button"} color="secondary"  style={{width : theme.spacing(128.25)}} >See all results</ButtonComponent>
-
-        </Paper>
-    )
-}
+  return (
+    <Box sx={{zIndex : "999", background: "white", boxShadow: "1px 1px 1px 1px rgba(0,0,0,0.2)", borderRadius: "5px"}}>
+      <>
+        {props.results.map((books, key) => {
+          return (
+            <BookDescription
+              key={key}
+              bookImg={books.bookImage}
+              bookTitle={books.title}
+              bookAuthor={books.author}
+              bookCategory={books.category}
+            />
+          );
+        })}
+        <ButtonComponent
+          role={"button"}
+          color="secondary"
+          style={{ width: theme.spacing(128.25) }}
+          onClick={props.handleSeeMore}
+        >
+          See all results
+        </ButtonComponent>
+      </>
+    </Box>
+  );
+};
 
 export default SearchResult;

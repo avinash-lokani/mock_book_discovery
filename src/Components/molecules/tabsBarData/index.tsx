@@ -18,7 +18,11 @@ const useStyles = makeStyles({
   },
 });
 
-const TabsBarData = (handleClick: any) => {
+interface Props {
+  handleClick : (id : string) => void;
+}
+
+const TabsBarData = (props : Props) => {
   const classes = useStyles();
   return (
     <Box className={classes.listBox}>
@@ -26,17 +30,16 @@ const TabsBarData = (handleClick: any) => {
         {listData.map((data, key) => {
           return (
             <>
-              <Grid item xs={4}>
+              <Grid item xs={4} key={key}>
                 <Lists
-                  data-testid="list"
-                  key={key}
+                  key={`${key}-${data.id}`}
                   icon={data.icon}
                   Subject={data.subject}
                   topic_1={data.topic1}
                   topic_2={data.topic2}
                   topic_3={data.topic3}
                   topic_4={data.topic4}
-                  onClick={() => handleClick(data.id)}
+                  onClick={() => props.handleClick(data.id)}
                   iconStyle={{
                     color: `${data.color}`,
                     margin: theme.spacing(1.25),

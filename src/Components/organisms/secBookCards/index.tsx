@@ -6,7 +6,7 @@ import { BooksURL } from "../../../core-utils/properties";
 import { useGlobalBookmarkState } from "../bookDetails";
 import axios from "axios";
 import theme from "../../../core-utils/theme";
-import { bookMarkBook } from "../../../service-layer";
+import { bookMarkBook, unbookMarkBook } from "../../../service-layer";
 import { useNavigate } from "react-router-dom";
 
 const types = {
@@ -45,14 +45,11 @@ const CardGroup = (props: CardGroupProps) => {
     },
   ]);
 
- 
-
   const [bookmarks, setBookmarks] = useGlobalBookmarkState();
 
   useEffect(() => {
     const data = async () => {
-      // const searchedRes = await axios.get(`${BooksURL}/BookDetail`);
-      const searchedRes = await axios.get("http://localhost:7075/BookDetail");
+      const searchedRes = await axios.get(`${BooksURL}/BookDetail`);
       setBookData(searchedRes.data);
     };
 
@@ -66,16 +63,21 @@ const CardGroup = (props: CardGroupProps) => {
     },
     [bookmarks, setBookmarks]
   );
-  const navigate = useNavigate()
-  const handleCardNavigate = (id:number)=>{
-      navigate(`/books/${id}`)
-  }
+  const navigate = useNavigate();
+  const handleCardNavigate = (id: number) => {
+    navigate(`/books/${id}`);
+  };
 
   return (
-    <Box >
+    <Box>
       <Box
         data-testid="recommendations-header"
-        sx={{ display: "flex", flexWrap: "wrap", width: "100%", justifyContent:'space-between' }}
+        sx={{
+          display: "flex",
+          flexWrap: "wrap",
+          width: "100%",
+          justifyContent: "space-between",
+        }}
       >
         <Typography variant="h1" color="primary.dark">
           {props.heading}
@@ -108,12 +110,17 @@ const CardGroup = (props: CardGroupProps) => {
           .map((cards, key) => {
             return (
               <Infocard
-              onCardClick={()=>{handleCardNavigate(cards.id)}}
+                onCardClick={() => {
+                  handleCardNavigate(cards.id);
+                }}
                 key={key}
                 imgSrc={cards.bookImage}
                 iconclick={() => {
-                  if (bookmarks.indexOf(key) <= -1 || bookmarks.length == 0) {
-                    addBookmarks(key);
+                  if (bookmarks.indexOf(cards.id) <= -1 || bookmarks.length == 0) {
+                    addBookmarks(cards.id);
+                  }
+                  else{
+                    unbookMarkBook(cards.id)
                   }
                 }}
                 bookName={cards.title}

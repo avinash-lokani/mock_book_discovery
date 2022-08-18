@@ -10,7 +10,7 @@ export default {
 
 const Template : ComponentStory<typeof BookCard> = () => (
     <BrowserRouter> 
-    <BookCard searchInput={'J D Lee'}/>
+    <BookCard searchInput={'J D Lee'} allBookData={[]}/>
     </BrowserRouter>
     );
     export const BookCardStory = Template.bind({});

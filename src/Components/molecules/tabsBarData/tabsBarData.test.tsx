@@ -5,7 +5,9 @@ import TabsBarData from ".";
 
 test("should render pagination", () => {
 
-    render(<TabsBarData/>);
+    render(<TabsBarData handleClick={(id: string)=>{
+        console.log("working "+ id);
+    } }/>);
 
    
 

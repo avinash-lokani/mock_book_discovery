@@ -18,7 +18,7 @@ type CardProps = {
   style?: React.CSSProperties;
 };
 
-const Template: Story<CardProps> = (args) => <Infocard {...args}></Infocard>;
+const Template: Story<CardProps> = (args) => <Infocard iconclick={()=>{}} {...args}></Infocard>;
 
 export const card = Template.bind({});
 card.args = {

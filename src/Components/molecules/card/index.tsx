@@ -19,7 +19,7 @@ type CardProps = {
   iconclick:() => void;
   onCardClick? :() => void;
   style?: React.CSSProperties;
-  isBookmarked?: Boolean;
+  isBookmarked?: boolean;
 };
 
 const ImageBox = styled("div")({
@@ -43,7 +43,7 @@ const Infocard = (props: CardProps) => {
             <MoreHorizIcon fontSize={"small"} style = {{marginRight:theme.spacing(2.5), color:`${theme.palette.secondary.light}`}}/>
           </div>
         <ImageBox onClick={props.onCardClick}>
-          <img  src={props.imgSrc}></img>
+          <img  src={props.imgSrc}  style={{width:'151px',height:'165px'}}></img>
         </ImageBox>
       </Box>
       <Box sx = {{marginLeft : theme.spacing(3)}}>

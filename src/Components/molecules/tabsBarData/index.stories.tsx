@@ -7,6 +7,9 @@ export default {
 	component: TabsBarData,
 } as ComponentMeta<typeof TabsBarData>;
 
-const Template: ComponentStory<typeof TabsBarData> = () => <TabsBarData />;
+const Template: ComponentStory<typeof TabsBarData> = () => <TabsBarData handleClick={(id: string)=>{
+	console.log("working "+ id);
+	
+} } />;
 
 export const TabsBarDataStory = Template.bind({});

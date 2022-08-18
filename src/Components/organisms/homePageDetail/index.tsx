@@ -10,7 +10,11 @@ import bookRead from "../../../../public/assets/icons/bookread.svg";
 import check from "../../../../public/assets/icons/check.svg";
 import targetsvg from "../../../../public/assets/icons/target.svg";
 import bookImage from "../../../../public/assets/images/book.png";
-import { useGlobalBookmarkState, useGlobalReadState } from "../bookDetails";
+import {
+  useGlobalBookmarkState,
+  useGlobalBooksCompletedState,
+  useGlobalReadState,
+} from "../bookDetails";
 import {
   booksRead,
   booksToRead,
@@ -30,12 +34,12 @@ import { useNavigate } from "react-router-dom";
 
 const useStyles = makeStyles(() => ({
   container: {
-    marginTop:'100px',
-    width: "80%",
+    marginTop: "100px",
+    width: "85%",
     display: "flex",
     flexDirection: "column",
-    marginBottom:'50px',
-    textAlign:'left'
+    marginBottom: "50px",
+    textAlign: "left",
   },
   bannerDiv: {
     margin: `${theme.spacing(14)} 0px`,
@@ -53,6 +57,7 @@ const HomePageDetail = () => {
   const navigate = useNavigate();
   const [booksReadcount] = useGlobalReadState();
   const [booksToReadcount] = useGlobalBookmarkState();
+  const [booksCompletedcount] = useGlobalBooksCompletedState();
 
   const [bookData, setBookData] = useState([
     {
@@ -80,14 +85,13 @@ const HomePageDetail = () => {
     },
   ]);
 
-  const navigateBookDetail =(id:number)=>{
-    navigate(`/books/${id}`)
-  }
+  const navigateBookDetail = (id: number) => {
+    navigate(`/books/${id}`);
+  };
 
   useEffect(() => {
     const data = async () => {
-       //const searchedRes = await axios.get(`${BooksURL}/BookDetail`);
-       const searchedRes = await axios.get(" http://localhost:7075/BookDetail");
+      const searchedRes = await axios.get(`${BooksURL}/BookDetail`);
       setBookData(searchedRes.data);
     };
     data();
@@ -112,7 +116,7 @@ const HomePageDetail = () => {
         <ReadingCount
           heading={booksRead}
           iconImg={check}
-          count={booksReadcount.length}
+          count={booksCompletedcount.length}
         />
         <ReadingCount heading={target} iconImg={targetsvg} count={100} />
       </Box>
@@ -144,13 +148,15 @@ const HomePageDetail = () => {
               return (
                 <ReadingCardComponent
                   key={key}
-                  imgSrc={book.bookThumbnail}
+                  imgSrc={book.bookImage}
                   bookName={book.title}
                   author={book.author}
                   category={book.category}
                   pagesRead={20}
                   pagesTotal={250}
-                  onClick={()=>{navigateBookDetail(book.id)}}
+                  onClick={() => {
+                    navigateBookDetail(book.id);
+                  }}
                 />
               );
             })}
@@ -160,14 +166,12 @@ const HomePageDetail = () => {
         <CardGroup
           filterType={"recommendations"}
           heading={"Recommendations"}
-        
         ></CardGroup>
       </Box>
       <Box sx={{ marginTop: theme.spacing(26) }}>
         <CardGroup
           filterType={"PeopleYouareFollowingAlsoRead"}
           heading={homeTitle2}
-         
         ></CardGroup>
       </Box>
       <Box sx={{ marginTop: theme.spacing(26) }}>
@@ -189,7 +193,7 @@ const HomePageDetail = () => {
             marginTop: theme.spacing(3.75),
             display: "flex",
             flexWrap: "wrap",
-            justifyContent: "space-between"
+            justifyContent: "space-between",
           }}
         >
           {topicsYouFollow.map((book, key) => {
@@ -207,7 +211,7 @@ const HomePageDetail = () => {
         </Box>
       </Box>
       <Box sx={{ marginTop: theme.spacing(26) }}>
-        <CardGroup filterType={"TopRatings"} heading={homeTitle4} ></CardGroup>
+        <CardGroup filterType={"TopRatings"} heading={homeTitle4}></CardGroup>
       </Box>
     </Box>
   );
