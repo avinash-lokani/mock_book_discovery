@@ -12,6 +12,7 @@ import Library, {
 import LandingTemplate from "./Components/templates/landingTemplate";
 import theme from "./core-utils/theme";
 import Books from "../Data/booksData";
+import SearchResultsPage from "./Components/pages/searchResults";
 
 export interface bookType {
   id: number;
@@ -64,10 +65,11 @@ function App() {
     <ThemeProvider theme={theme}>
     <BrowserRouter>
       <Routes>
-        <Route
+        {/* <Route
           path="/search"
           element={<LandingTemplate template={<LandingPageStarter />} />}
-        />
+        /> */}
+         <Route path="/searchresults" element={<SearchResultsPage />} />
         <Route path="/mylibrary" element={<Library />} />
         <Route path="/" element={<HomePage />} />
         <Route path={`/books/:id`} element={<BookPage />} />
